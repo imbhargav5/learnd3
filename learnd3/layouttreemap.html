@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <style>
+        body{
+            padding:20px 100px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+
+
+<script>
+    var data = {
+        name: "dbz",
+        value:10000,
+        children: [
+            {
+                name: "saiyan1",
+                value:1000,
+                children: [
+                    {
+                        name:"vegeta",
+                        value:100,
+                        children:{}
+                    },
+                    {
+                        name:"trunks",
+                        value:100,
+                        children:{}
+                    },
+                    {
+                        name:"bulla",
+                        value:100,
+                        children:{}
+                    }]
+            },
+            {
+                name: "saiyan2",
+                value:1000,
+                children: [
+                    {
+                        name:"goku",
+                        value:100,
+                        children:{}
+                    },
+                    {
+                        name:"gohan",
+                        value:100,
+                        children:{}
+                    },
+                    {
+                        name:"goten",
+                        value:100,
+                        children:{}
+                    },
+                    {
+                        name:"pan",
+                        value:100,
+                        children:{}
+                    }]
+            },
+            {
+                name:"raditz",
+                value:1000,
+                children:{}
+            }
+        ]};
+
+    var height=500,
+            width=500,
+            padding=20;
+    var color=d3.scale.category10();
+    var canvas=d3.select("body").append("svg")
+            .attr("width",width)
+            .attr("height",height+padding);
+
+    var treemap=d3.layout.treemap()
+            .size([width,height])
+            .nodes(data);
+
+    var cells=canvas.selectAll(".cell")
+            .data(treemap)
+            .enter()
+            .append("g")
+            .attr("class","cell");
+
+    cells.append("rect")
+            .attr("x",function(d){
+                return d.x;
+            })
+            .attr("y",function(d){
+                return d.y;
+            })
+            .attr("width",function(d){
+                return d.dx;
+            })
+            .attr("height",function(d){
+                return d.dy;
+            })
+            .attr("fill",function(d){
+                return d.children ? null : color(d.parent.name);
+            })
+            .attr("stroke","white");
+
+    var text=cells.append("text")
+            .text(function(d){
+                return d.children? null :  d.name;
+            })
+            .attr("x",function(d){
+                return d.x + d.dx/2 ;
+            })
+            .attr("y",function(d){
+                return d.y + d.dy/2;
+            })
+            .attr("text-anchor","middle");
+    console.log(treemap)
+
+
+//    var nodes=pack.nodes(data);
+//    console.log(nodes);
+//
+//    //    var links=pack.links(nodes);
+//
+//    var node=canvas.selectAll(".node")
+//            .data(nodes)
+//            .enter()
+//            .append("g")
+//            .attr("class","node")
+//            .attr("transform",function(d){
+//                return "translate("+ d.x+","+ d.y+ ")";
+//            });
+//
+//    node.append("circle")
+//            .attr("r",function(d){
+//                return d.r;
+//            })
+//            .attr("fill","steelblue")
+//            .attr("opacity","0.25")
+//            .attr("stroke","#adadad");
+//
+//    node.append("text")
+//            .text(function(d){
+//                return d.children? "" : d.name;
+//            });
+//
+//
+//
+
+
+</script>
+
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+</body>
+</html>
