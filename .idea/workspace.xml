@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33ae98d-f3d2-4406-9c08-eadeb94a4b9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/layouttreemap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learnd3/layouttreemap.html" afterPath="$PROJECT_DIR$/learnd3/layouttreemap.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="42d820a2-51f3-4ec7-ab43-286b03892601" name="New changelist" comment="" />
@@ -98,7 +98,7 @@
       <file leaf-file-name="layouttreemap.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learnd3/layouttreemap.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="35" selection-start="3866" selection-end="3866" vertical-scroll-proportion="0.7836364" vertical-offset="1796" max-vertical-offset="3145">
+            <state line="36" column="18" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.8036364" vertical-offset="170" max-vertical-offset="3230">
               <folding />
             </state>
           </provider>
@@ -560,7 +560,7 @@
       <created>1399107700203</created>
       <updated>1399107700203</updated>
       <workItem from="1399107703884" duration="1092000" />
-      <workItem from="1399108818044" duration="14299000" />
+      <workItem from="1399108818044" duration="15042000" />
     </task>
     <task id="LOCAL-00001" summary="Layouts Initial">
       <created>1399129599346</created>
@@ -574,11 +574,15 @@
       <created>1399144101798</created>
       <updated>1399144101798</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Layout TreeMap&#10;">
+      <created>1399145804660</created>
+      <updated>1399145804660</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15391000" />
+    <option name="totallyTimeSpent" value="16134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -626,7 +630,8 @@
     <MESSAGE value="Layouts Initial" />
     <MESSAGE value=" Layout Pack" />
     <MESSAGE value="Layout Histogram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Layout Histogram" />
+    <MESSAGE value="Layout TreeMap&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layout TreeMap&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -704,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learnd3/layouttreemap.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="35" selection-start="3866" selection-end="3866" vertical-scroll-proportion="0.7836364" vertical-offset="1796" max-vertical-offset="3145">
+        <state line="36" column="18" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.8036364" vertical-offset="170" max-vertical-offset="3230">
           <folding />
         </state>
       </provider>
