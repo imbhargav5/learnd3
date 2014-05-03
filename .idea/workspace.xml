@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33ae98d-f3d2-4406-9c08-eadeb94a4b9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/arc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/diagonal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/layoutpack.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/layoutpartition.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/layouttree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/layouthistogram.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="42d820a2-51f3-4ec7-ab43-286b03892601" name="New changelist" comment="" />
@@ -81,10 +77,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layoutpack.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layoutpack.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnd3/layoutpack.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="26" selection-start="2657" selection-end="2657" vertical-scroll-proportion="2.5604203" vertical-offset="0" max-vertical-offset="2873">
+            <state line="86" column="26" selection-start="2657" selection-end="2657" vertical-scroll-proportion="-52.307693" vertical-offset="102" max-vertical-offset="2873">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layouthistogram.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learnd3/layouthistogram.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="14" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.4045534" vertical-offset="449" max-vertical-offset="2652">
               <folding />
             </state>
           </provider>
@@ -157,6 +162,7 @@
         <option value="$PROJECT_DIR$/learnd3/layoutpartition.html" />
         <option value="$PROJECT_DIR$/learnd3/layouttree.html" />
         <option value="$PROJECT_DIR$/learnd3/layoutpack.html" />
+        <option value="$PROJECT_DIR$/learnd3/layouthistogram.html" />
       </list>
     </option>
   </component>
@@ -544,17 +550,21 @@
       <created>1399107700203</created>
       <updated>1399107700203</updated>
       <workItem from="1399107703884" duration="1092000" />
-      <workItem from="1399108818044" duration="8964000" />
+      <workItem from="1399108818044" duration="12685000" />
     </task>
     <task id="LOCAL-00001" summary="Layouts Initial">
       <created>1399129599346</created>
       <updated>1399129599346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" Layout Pack">
+      <created>1399139690743</created>
+      <updated>1399139690744</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10056000" />
+    <option name="totallyTimeSpent" value="13777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -600,7 +610,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Layouts Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Layouts Initial" />
+    <MESSAGE value=" Layout Pack" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Layout Pack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -664,7 +675,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learnd3/layoutpack.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="26" selection-start="2657" selection-end="2657" vertical-scroll-proportion="2.5604203" vertical-offset="0" max-vertical-offset="2873">
+        <state line="86" column="26" selection-start="2657" selection-end="2657" vertical-scroll-proportion="-52.307693" vertical-offset="102" max-vertical-offset="2873">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnd3/layouthistogram.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="14" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.4045534" vertical-offset="449" max-vertical-offset="2652">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <style>
+        body{
+            padding:20px 100px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+
+
+<script>
+    var data = [
+        {a: "10"},
+        {a: "5"},
+        {a: "6"},
+        {a: "7"},
+        {a: "1"},
+        {a: "0"},
+        {a: "6"},
+        {a: "7"},
+        {a: "1"},
+        {a: "49"},
+        {a: "59"},
+        {a: "68"},
+        {a: "78"},
+        {a: "90"},
+        {a: "10"},
+        {a: "89"},
+        {a: "35"},
+        {a: "34"},
+        {a: "23"},
+        {a: "75"},
+        {a: "92"},
+        {a: "78"},
+        {a: "90"},
+        {a: "10"},
+        {a: "89"},
+        {a: "35"},
+        {a: "34"},
+        {a: "23"},
+        {a: "75"},
+        {a: "92"},
+        {a: "20"}
+    ];
+
+    var width=500;
+    var height=500;
+    var padding=100;
+   var map=data.map(function(d){
+       return parseInt(d.a);
+   });
+    var hist=d3.layout.histogram()
+            .bins(5)
+            (map);
+
+
+    var y = d3.scale.linear()
+            .domain([0,d3.max(hist.map(function(i){console.log(i.length); return i.length; }))])
+            .range([0,height]);
+    var x = d3.scale.linear()
+            .domain([0,d3.max(map)])
+            .range([0,width]);
+    var xAxis = d3.svg.axis()
+            .scale(x)
+            .orient("bottom");
+    var canvas=d3.select("body").append("svg")
+            .attr("height",height+padding)
+            .attr("width",width)
+            .append("g")
+            .attr("transform","translate(20,20)");
+
+    var axisBottom=canvas.append("g")
+            .attr("transform","translate(0,"+height+")")
+            .call(xAxis);
+    var bars=canvas.selectAll(".bars")
+            .data(hist)
+            .enter()
+            .append("g")
+            .attr("class","bars");
+    bars.append("rect")
+            .attr("x",function(d){
+                return x(d.x);
+            })
+            .attr("y",function(d){
+                return 500-y(d.y);
+            })
+            .attr("height",function(d){
+                return y(d.y);
+            })
+            .attr("width",function(d){
+                return x(d.dx);
+            })
+            .attr("fill","steelblue");
+//    var diagonal=d3.svg.diagonal();
+//    var line=d3.svg.line()
+//            .x(function(d){
+//                console.log(d);
+//                return d.x;
+//            })
+//            .y(function(d){
+//                return d.y;
+//            });
+//
+//    var link=canvas.selectAll(".link")
+//            .data(links)
+//            .enter()
+//            .append("path")
+//            .attr("class","link")
+//            .attr("fill","none")
+//            .attr("stroke","blue")
+//            .attr("d",function(d){
+//                var o1 = {x: d.source.x, y: d.source.y};
+//                var o2= {x: d.target.x, y: d.target.y};
+//                return line([o1,o2]);
+//            });
+//
+
+
+
+</script>
+
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+</body>
+</html>
