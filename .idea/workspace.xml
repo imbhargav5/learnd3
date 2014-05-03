@@ -2,50 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33ae98d-f3d2-4406-9c08-eadeb94a4b9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/apple-touch-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/img/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/doc/TOC.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/basicsvg.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/doc/crossdomain.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/crossdomain.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/doc/css.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/js/d3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/datavisualization.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/doc/extend.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/doc/faq.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/doc/html.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/humans.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/js/vendor/jquery-1.10.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/doc/js.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/layoutpie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/learnd3.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/doc/misc.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/js/vendor/modernizr-2.6.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/js/plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/doc/usage.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/arc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/diagonal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/layoutpack.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/layoutpartition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnd3/layouttree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="42d820a2-51f3-4ec7-ab43-286b03892601" name="New changelist" comment="" />
     <ignored path="learnd3.iws" />
@@ -113,16 +75,61 @@
       <file leaf-file-name="layoutpie.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnd3/layoutpie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1394">
+            <state line="49" column="26" selection-start="1585" selection-end="1585" vertical-scroll-proportion="-12.230769" vertical-offset="515" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="d3.min.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layoutpack.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learnd3/layoutpack.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="26" selection-start="2657" selection-end="2657" vertical-scroll-proportion="2.5604203" vertical-offset="0" max-vertical-offset="2873">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layoutpartition.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnd3/layoutpartition.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="27" selection-start="1796" selection-end="1796" vertical-scroll-proportion="-5.6923075" vertical-offset="838" max-vertical-offset="1462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diagonal.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnd3/diagonal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="29" selection-start="1595" selection-end="1595" vertical-scroll-proportion="-10.269231" vertical-offset="549" max-vertical-offset="1241">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layouttree.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnd3/layouttree.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="26" selection-start="0" selection-end="3430" vertical-scroll-proportion="-10.192307" vertical-offset="1180" max-vertical-offset="2210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arc.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnd3/arc.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="35" selection-start="0" selection-end="2052" vertical-scroll-proportion="-9.615385" vertical-offset="583" max-vertical-offset="1275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="d3.min.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnd3/js/d3.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="146966" selection-end="146966" vertical-scroll-proportion="0.22427441" vertical-offset="0" max-vertical-offset="379">
+            <state line="5" column="0" selection-start="146966" selection-end="146966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -141,6 +148,17 @@
   <component name="GithubProjectSettings">
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="bhargav175" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="learnd3" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/learnd3/arc.html" />
+        <option value="$PROJECT_DIR$/learnd3/layoutpie.html" />
+        <option value="$PROJECT_DIR$/learnd3/layoutpartition.html" />
+        <option value="$PROJECT_DIR$/learnd3/layouttree.html" />
+        <option value="$PROJECT_DIR$/learnd3/layoutpack.html" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -177,8 +195,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,6 +236,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -226,8 +245,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Documents\GitHub\learnd3\learnd3\js" />
       <recent name="C:\Users\Admin\Documents\GitHub\learnd3\learnd3" />
+      <recent name="C:\Users\Admin\Documents\GitHub\learnd3\learnd3\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Documents\GitHub\learnd3" />
@@ -524,41 +543,48 @@
       <changelist id="42d820a2-51f3-4ec7-ab43-286b03892601" name="New changelist" comment="" />
       <created>1399107700203</created>
       <updated>1399107700203</updated>
-      <workItem from="1399107703884" duration="1031000" />
+      <workItem from="1399107703884" duration="1092000" />
+      <workItem from="1399108818044" duration="8964000" />
     </task>
+    <task id="LOCAL-00001" summary="Layouts Initial">
+      <created>1399129599346</created>
+      <updated>1399129599346</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1031000" />
+    <option name="totallyTimeSpent" value="10056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -573,6 +599,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Layouts Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layouts Initial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -587,7 +615,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learnd3/js/d3.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="146966" selection-end="146966" vertical-scroll-proportion="0.22427441" vertical-offset="0" max-vertical-offset="379">
+        <state line="5" column="0" selection-start="146966" selection-end="146966" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnd3/js/d3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="146966" selection-end="146966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnd3/arc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="35" selection-start="0" selection-end="2052" vertical-scroll-proportion="-9.615385" vertical-offset="583" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnd3/layoutpie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="26" selection-start="1585" selection-end="1585" vertical-scroll-proportion="-12.230769" vertical-offset="515" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnd3/layoutpartition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="27" selection-start="1796" selection-end="1796" vertical-scroll-proportion="-5.6923075" vertical-offset="838" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnd3/diagonal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="29" selection-start="1595" selection-end="1595" vertical-scroll-proportion="-10.269231" vertical-offset="549" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnd3/layouttree.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="26" selection-start="0" selection-end="3430" vertical-scroll-proportion="-10.192307" vertical-offset="1180" max-vertical-offset="2210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnd3/layoutpack.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="26" selection-start="2657" selection-end="2657" vertical-scroll-proportion="2.5604203" vertical-offset="0" max-vertical-offset="2873">
           <folding />
         </state>
       </provider>

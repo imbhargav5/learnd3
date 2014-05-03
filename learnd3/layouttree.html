@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <style>
+        body{
+            padding:20px 100px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+
+
+<script>
+    var data = {
+        name: "test",
+        children: [
+            {
+                name: "trunks",
+                children: [
+                    {
+                        name:"gok",
+                        children:{}
+                    },
+                    {
+                        name:"veg",
+                        children:{}
+                    }]
+            },
+            {
+                name: "balaraju",
+                children: {}
+            }
+        ]};
+
+    var color=d3.scale.ordinal()
+            .range(["red","blue","orange"]);
+    var canvas=d3.select("body").append("svg")
+            .attr("width",1500)
+            .attr("height",800)
+            .append("g")
+            .attr("transform","translate(100,20)");
+    var tree=d3.layout.tree()
+            .size([400,400]);
+
+
+        var nodes=tree.nodes(data);
+
+        var links=tree.links(nodes);
+
+    var node=canvas.selectAll(".node")
+            .data(nodes)
+            .enter()
+            .append("g")
+            .attr("class","node")
+            .attr("transform",function(d){
+                return "translate("+ d.x+","+ d.y+ ")";
+            });
+
+    node.append("circle")
+            .attr("r",5);
+    var diagonal=d3.svg.diagonal();
+    var line=d3.svg.line()
+            .x(function(d){
+                console.log(d);
+                return d.x;
+            })
+            .y(function(d){
+                return d.y;
+            });
+
+    var link=canvas.selectAll(".link")
+            .data(links)
+            .enter()
+            .append("path")
+            .attr("class","link")
+            .attr("fill","none")
+            .attr("stroke","blue")
+            .attr("d",function(d){
+                var o1 = {x: d.source.x, y: d.source.y};
+                var o2= {x: d.target.x, y: d.target.y};
+                return line([o1,o2]);
+            });
+    var dink=canvas.selectAll(".dink")
+            .data(links)
+            .enter()
+            .append("path")
+            .attr("class","dink")
+            .attr("fill","none")
+            .attr("stroke","blue")
+            .attr("d",diagonal);
+
+
+    console.log(links);
+
+
+</script>
+
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+</body>
+</html>
